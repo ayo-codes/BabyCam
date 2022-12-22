@@ -16,3 +16,5 @@ sense.clear()
 #Runs the connection between blynk and raspberry pi 
 while True:
   blynk.run()
+  blynk.virtual_write(4,round(sense.humidity,2)) #writes to virtual pin 4 and sends data from the senseHAT for humidity
+  sleep(.5)
