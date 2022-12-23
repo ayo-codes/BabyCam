@@ -17,7 +17,10 @@ The Babycam uses the raspberry pi model 3b+ along with a
 * The Device allows the user to be able to use their mobile phone to view their baby who may be in another room via the blynk app.
 * The Device also sends data on the latest room temperature and humidity to the app.
 * The Device also notes if the baby moves and sends a notification to the mobile app and also sends an email.
-* The User can also summon the video of the stream from alexa devices within the house.
+* The User can also summon the live stream of the baby cam from alexa devices within the house.
+
+
+
 
 
 
