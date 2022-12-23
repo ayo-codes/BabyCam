@@ -30,8 +30,8 @@ try:
     blynk.virtual_write(4,round(sense.humidity,2)) #writes to virtual pin 4 and sends data from the senseHAT for humidity
     motion = GPIO.input(motionPin) # set the variable motion as the input of the motionPin 
     blynk.virtual_write(5,motion) # writes to virtual pin 5 and data sent is the value of the variable motion
-    temperatureDs18b20 = sensor.get_temperature()
-    blynk.virtual_write(6,temperatureDs18b20)
+    temperatureDs18b20 = sensor.get_temperature() # sets the variable temperatureDs18b20 to the value of the sensor reading
+    blynk.virtual_write(6,temperatureDs18b20) #writes to virtual pin 6 and data sent is the value of the variable temperatureDs18b20
     sleep(.5)
 except KeyboardInterrupt:
   GPIO.cleanup()
