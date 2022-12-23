@@ -20,7 +20,7 @@ The Babycam uses the raspberry pi model 3b+ along with a
 * The User can also summon the live stream of the baby cam from alexa devices within the house.
 
 
-
+![Alt text](vscode-local:/Users/ayo/Documents/Computer%20Science%20HDip%20Semester%202%20-%20Computer%20Systems%20/Assignment_3/BabyCam%20WorkFlow.jpg)
 
 
 
